@@ -19,14 +19,12 @@
 ## 📖 Table of Contents
 - [📖 Table of Contents](#-table-of-contents)
 - [📂 Repository Structure](#-repository-structure)
-- [⚙️ Modules](#modules)
 - [🚀 Getting Started](#-getting-started)
     - [🔧 Installation](#-installation)
     - [🤖 Running fornallux.git](#-running-fornallux.git)
     - [🧪 Tests](#-tests)
 - [🛣 Roadmap](#-roadmap)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 - [👏 Acknowledgments](#-acknowledgments)
 
 ---
@@ -43,30 +41,9 @@
 
 ---
 
-## ⚙️ Modules
-
-<details closed><summary>Root</summary>
-
-| File                                                                                   | Summary                   |
-| ---                                                                                    | ---                       |
-| [dnamesearch.sh](https://github.com/joblinours/fornallux.git/blob/main/dnamesearch.sh) | HTTPStatus Exception: 401 |
-| [massunziper.sh](https://github.com/joblinours/fornallux.git/blob/main/massunziper.sh) | HTTPStatus Exception: 401 |
-
-</details>
-
----
 
 ## 🚀 Getting Started
 
-***Dependencies***
-
-Please ensure you have the following dependencies installed on your system:
-
-`- ℹ️ Dependency 1`
-
-`- ℹ️ Dependency 2`
-
-`- ℹ️ ...`
 
 ### 🔧 Installation
 
@@ -82,31 +59,15 @@ cd fornallux.git
 
 3. Install the dependencies:
 ```sh
-chmod +x main.sh
+chmod +x dnamesearch.sh
+chmod +x massunziper.sh
 ```
 
-### 🤖 Running fornallux.git
+### 🤖 Running the tool
 
 ```sh
-./main.sh
+./<name of tool>
 ```
-
-### 🧪 Tests
-```sh
-bats *.bats
-```
-
----
-
-
-## 🛣 Roadmap
-
-> - [X] `ℹ️  Task 1: Implement X`
-> - [ ] `ℹ️  Task 2: Implement Y`
-> - [ ] `ℹ️ ...`
-
-
----
 
 ## 🤝 Contributing
 
@@ -131,11 +92,6 @@ The project maintainers will review your changes and provide feedback or merge t
 
 ---
 
-## 📄 License
-
-This project is licensed under the `ℹ️  LICENSE-TYPE` License. See the [LICENSE-Type](LICENSE) file for additional info.
-
----
 
 ## 👏 Acknowledgments
 
