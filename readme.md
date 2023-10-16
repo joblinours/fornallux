@@ -2,16 +2,10 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
 <br>FORNALLUX.GIT</h1>
-<h3>◦ HTTPStatus Exception: 401</h3>
 <h3>◦ Developed with the software and tools below.</h3>
 
 <p align="center">
 <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style&logo=GNU-Bash&logoColor=white" alt="GNU%20Bash" />
-</p>
-<img src="https://img.shields.io/github/license/joblinours/fornallux.git?style&color=5D6D7E" alt="GitHub license" />
-<img src="https://img.shields.io/github/last-commit/joblinours/fornallux.git?style&color=5D6D7E" alt="git-last-commit" />
-<img src="https://img.shields.io/github/commit-activity/m/joblinours/fornallux.git?style&color=5D6D7E" alt="GitHub commit activity" />
-<img src="https://img.shields.io/github/languages/top/joblinours/fornallux.git?style&color=5D6D7E" alt="GitHub top language" />
 </div>
 
 ---
@@ -22,8 +16,6 @@
 - [🚀 Getting Started](#-getting-started)
     - [🔧 Installation](#-installation)
     - [🤖 Running fornallux.git](#-running-fornallux.git)
-    - [🧪 Tests](#-tests)
-- [🛣 Roadmap](#-roadmap)
 - [🤝 Contributing](#-contributing)
 - [👏 Acknowledgments](#-acknowledgments)
 
