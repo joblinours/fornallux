@@ -18,8 +18,6 @@
 
 ## 📖 Table of Contents
 - [📖 Table of Contents](#-table-of-contents)
-- [📍 Overview](#-overview)
-- [📦 Features](#-features)
 - [📂 Repository Structure](#-repository-structure)
 - [⚙️ Modules](#modules)
 - [🚀 Getting Started](#-getting-started)
@@ -30,19 +28,6 @@
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [👏 Acknowledgments](#-acknowledgments)
-
----
-
-
-## 📍 Overview
-
-HTTPStatus Exception: 401
-
----
-
-## 📦 Features
-
-HTTPStatus Exception: 401
 
 ---
 
