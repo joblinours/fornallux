@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">
-<img src="/home/joblinours/Téléchargements/Firefly a cartoon logo for the forensic branch of a cybersecurity company 38107.jpg" width="100" />
+<img src="https://github.com/joblinours/fornallux/tree/main/assets/fornallux.jpg" width="100" />
 <br>FORNALLUX.GIT</h1>
 <h3>◦ Developed with the software and tools below.</h3>
 
