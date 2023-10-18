@@ -15,13 +15,26 @@ count_pcap_files() {
     find "$1" -type f -name "*.pcap" | wc -l
 }
 
+# Fonction pour analyser les ports de destination et les ip
+port_analyse(){
+    # tshark...
+
+}
+
+# fonction d'affichage du menu 
+
+menu(){
+
+    # # afficher le menu
+}
+
 # Vérifie les arguments de ligne de commande
 if [ $# -lt 3 ]; then
     echo "Usage: $0 -f <fichier_pcap> -o <fichier_sortie> OR -d <répertoire_pcap> -o <fichier_sortie> [-v] [-ip]"
     exit 1
 fi
 
-while getopts "f:d:o:ipv" opt; do
+while getopts "f:d:o:ipnv" opt; do
     case $opt in
         f)
             input_file="$OPTARG"
@@ -40,12 +53,19 @@ while getopts "f:d:o:ipv" opt; do
         o)
             output_file="$OPTARG"
             ;;
-        v)
-            verbose=1
-            ;;
         i)
             ip_mapping=1
             ;;
+        p)
+            port=1
+            ;;
+        n)
+            domain_name=1
+            ;;
+        v)
+            verbose=1
+            ;;
+        
         \?)
             echo "Option invalide: -$OPTARG"
             exit 1
@@ -72,7 +92,7 @@ if [ -n "$ip_mapping" ]; then
 
         echo "Correspondances IP <-> Nom de domaine extraites des fichiers PCAP dans le répertoire '$input_dir' et enregistrées dans '$output_file'."
     fi
-else
+elif [ -n "$domain_name" ]; then
     if [ -n "$input_file" ]; then
         extract_domains "$input_file" > "$output_file"
         echo "Noms de domaine extraits du fichier '$input_file' et enregistrés dans '$output_file'."
@@ -91,4 +111,10 @@ else
 
         echo "Noms de domaine extraits des fichiers PCAP dans le répertoire '$input_dir' et enregistrés dans '$output_file'."
     fi
+elif
+
+
+else 
+# afficher le menu ou -h
+echo 
 fi
