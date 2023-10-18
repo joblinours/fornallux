@@ -24,8 +24,18 @@ port_analyse(){
 # fonction d'affichage du menu 
 
 menu(){
-
-    # # afficher le menu
+    figlet fornallux
+    echo ""
+    echo "Options possibles :"
+    echo "-f <fichier_pcap> : Spécifie le fichier PCAP à traiter."
+    echo "-d <répertoire_pcap> : Spécifie le répertoire contenant les fichiers PCAP à traiter."
+    echo "-o <fichier_sortie> : Spécifie le fichier dans lequel écrire les résultats."
+    echo "-ip : Active l'extraction des correspondances IP <-> nom de domaine."
+    echo "-p : Active l'analyse des ports de destination et des IP."
+    echo "-n : Active l'extraction des noms de domaine."
+    echo "-v : Active le mode verbeux."
+    echo "-h : Affiche l'aide."
+    echo ""
 }
 
 # Vérifie les arguments de ligne de commande
@@ -34,7 +44,7 @@ if [ $# -lt 3 ]; then
     exit 1
 fi
 
-while getopts "f:d:o:ipnv" opt; do
+while getopts "f:d:o:ipnvh" opt; do
     case $opt in
         f)
             input_file="$OPTARG"
@@ -65,7 +75,10 @@ while getopts "f:d:o:ipnv" opt; do
         v)
             verbose=1
             ;;
-        
+        h)
+             menu
+            exit 0
+            ;;        
         \?)
             echo "Option invalide: -$OPTARG"
             exit 1
@@ -115,6 +128,7 @@ elif
 
 
 else 
-# afficher le menu ou -h
-echo 
+    echo "Aucune option n'a été spécifiée."
+    menu
+    exit 1
 fi
