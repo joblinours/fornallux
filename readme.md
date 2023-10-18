@@ -16,6 +16,7 @@
 - [🚀 Getting Started](#-getting-started)
     - [🔧 Installation](#-installation)
     - [🤖 Running fornallux.git](#-running-fornallux.git)
+- [💡 Improvement](#-Improvement)
 - [🤝 Contributing](#-contributing)
 - [👏 Acknowledgments](#-acknowledgments)
 
@@ -60,6 +61,11 @@ chmod +x massunziper.sh
 ```sh
 ./<name of tool>
 ```
+
+## 💡 Improvement
+
+- creating and adding a menu 
+- added the ability to display the outgoing ip/outgoing port relationship
 
 ## 🤝 Contributing
 
