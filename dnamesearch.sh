@@ -76,7 +76,7 @@ while getopts "f:d:o:ipnvh" opt; do
             verbose=1
             ;;
         h)
-             menu
+            menu
             exit 0
             ;;        
         \?)
