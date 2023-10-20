@@ -1,8 +1,8 @@
 <div align="center">
 <h1 align="center">
 <img src="/assets/fornallux.jpg" width="100" />
-<br>FORNALLUX.GIT</h1>
-<h3>◦ Developed with the software and tools below.</h3>
+<br>FORNALLUX</h1>
+<h3>◦ Developed with tools below and 💚.</h3>
 
 <p align="center">
 <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style&logo=GNU-Bash&logoColor=white" alt="GNU%20Bash" />
