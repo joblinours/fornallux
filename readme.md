@@ -18,8 +18,6 @@
     - [🤖 Running fornallux.git](#-running-fornallux.git)
 - [💡 Improvement](#-Improvement)
 - [🤝 Contributing](#-contributing)
-- [👏 Acknowledgments](#-acknowledgments)
-
 ---
 
 
@@ -90,11 +88,6 @@ git push origin new-feature-branch
 The project maintainers will review your changes and provide feedback or merge them into the main branch.
 
 ---
-
-
-## 👏 Acknowledgments
-
-`- ℹ️ List any resources, contributors, inspiration, etc.`
 
 [↑ Return](#Top)
 
