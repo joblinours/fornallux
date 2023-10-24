@@ -16,15 +16,15 @@
 
 
 ## 📖 Table of Contents
-- [📖 Table of Contents](#📖-table-of-contents)
-- [📂 Repository Structure](#📂-repository-structure)
-- [🚀 Getting Started](#🚀-getting-started)
-    - [🔧 Installation](#🔧-installation)
-- [🤖 Running tools](#🤖-running-the-tool)
-    - [🗃️ massunziper.sh](#🗃️-massunzipersh)
-    - [🔎 fornallux_V3.sh](#🔎-fornallux_v3sh)
-- [💡 Improvement](#💡-improvement)
-- [🤝 Contributing](#🤝-contributing)
+- [📖 Table of Contents](#-table-of-contents)
+- [📂 Repository Structure](#-repository-structure)
+- [🚀 Getting Started](#-getting-started)
+    - [🔧 Installation](#-installation)
+- [🤖 Running tools](#-running-the-tool)
+    - [🗃️ massunziper.sh](#-massunzipersh)
+    - [🔎 fornallux_V3.sh](#-fornallux_v3sh)
+- [💡 Improvement](#-improvement)
+- [🤝 Contributing](#-contributing)
 ---
 
 
