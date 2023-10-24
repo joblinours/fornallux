@@ -2,10 +2,13 @@
 
 # Fonction pour afficher l'aide
 afficher_aide() {
-  echo "Usage: $0 -i <répertoire_source> [-o <répertoire_destination>]"
   echo "Options:"
   echo "  -i <répertoire_source>: Répertoire source contenant les fichiers ZIP (obligatoire)."
   echo "  -o <répertoire_destination>: Répertoire de destination pour les fichiers décompressés (créé s'il n'existe pas)."
+  echo "  -h: Affiche l'aide."
+  echo ""
+  echo "Exemple d'utilisation:"
+  echo "  ./massunziper.sh -i /home/user/zip_files -o /home/user/unzipped_files"
   exit 1
 }
 
@@ -14,7 +17,7 @@ repertoire_source=""
 repertoire_destination=""
 
 # Traite les options en utilisant getopts
-while getopts ":i:o:" opt; do
+while getopts ":i:o:h" opt; do
   case "$opt" in
     i)
       # L'option -i a été spécifiée, donc définir le répertoire source
@@ -24,9 +27,12 @@ while getopts ":i:o:" opt; do
       # L'option -o a été spécifiée, donc définir le répertoire de destination
       repertoire_destination="$OPTARG"
       ;;
+    h)
+      # L'option -h a été spécifiée, donc afficher l'aide
+      afficher_aide
+      ;;
     \?)
       echo "Option invalide: -$OPTARG"
-      afficher_aide
       ;;
   esac
 done
