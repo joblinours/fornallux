@@ -107,6 +107,7 @@ Options de traitement :
 -p <tcp|udp> : Active l'analyse des ports et des IP de destination (TCP ou UDP).
 -m <tcp|udp> : active l'analyse des ports de destination et des IP (TCP ou UDP) pour plusieurs fichiers PCAP.
 -n : permet d'extraire les noms de domaine.
+-a : premet d'extraire toutes les IP des pcap
 
 Options supplémentaires :
 
