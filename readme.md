@@ -2,7 +2,7 @@
 <h1 align="center">
 <img src="/assets/fornallux.jpg" width="100" />
 <h1>FORNALLUX</h1>
-<h2>◦ Developed with a lot of 💚 and a little sweat </h2>
+<h2>◦ Developed with a lot of 💚 </h2>
 </div>
 
 
